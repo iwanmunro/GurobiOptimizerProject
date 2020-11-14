@@ -1,0 +1,12 @@
+\ Model mip1_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Maximize
+ 
+Subject To
+ c0: x + 2 y >= 8
+ c1: 2 x + y <= 5
+ c2: y <= 2
+Bounds
+ x free
+ y free
+End
